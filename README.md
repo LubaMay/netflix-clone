@@ -6,5 +6,5 @@ Most of the commits in this repository correspond to videos in the program.
 
 ## Project Setup
 
-* clone the Project - `https://github.com/LubaMay/netflix-clone.git`
-* install the dependencies - `npm install`
+- clone the Project - `https://github.com/LubaMay/netflix-clone.git`
+- install the dependencies - `npm install`
