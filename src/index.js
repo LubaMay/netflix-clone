@@ -4,6 +4,8 @@ import { GlobalStyles } from "./global-styles";
 import { App } from "./app";
 import { FirebaseContext } from "./context/firebase";
 
+import { seedDatabase } from "./seed";
+
 const config = {
   apiKey: "AIzaSyCodlVKO-dm1T4RP6AHj4Bed4Otzgi9Ca4",
   authDomain: "netflix-scrimbaclone.firebaseapp.com",
@@ -14,6 +16,7 @@ const config = {
 };
 
 const firebase = window.firebase.initializeApp(config);
+//seedDatabase(firebase);
 
 ReactDOM.render(
   <>
